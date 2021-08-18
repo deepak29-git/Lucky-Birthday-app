@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+*{
+    font-family: 'PT Serif', serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/birthday.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.container{
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+.heading{
+    padding-top: 100px;
+    padding-bottom: 5px;
+}
+h2{
+    padding-bottom: 20px;
+}
+label{
+    padding-bottom: 16px;
+}
+
+h1,h2,label,p{
+    text-align: center;
+}
+input{
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    border-color: #00BF8F;
+}
+#check-btn{
+    display: block;
+    margin: auto;
+    margin-top: 1.5rem;
+    padding: 0.7rem 1.3rem;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #00BF8F;
+    border: 1px solid black;
+}
+
+label{
+    margin-bottom: 0.8rem;
+    margin-top: 0.8rem;
+}
+.mb{
+    margin-bottom: 1rem;
+}
+.mt{
+    margin-top: 2.1rem;
+}
+.inline{
+    display: flex;
+    justify-content: center;    
+}
+.non-bullet{
+    list-style: none;
+}
+footer{
+    background-color: #00BF8F;
+    padding-top: 0.12px;
+    border-top-left-radius: 20px;
+    margin-top: 3.7rem;
+}
