@@ -43,6 +43,7 @@ input{
     display: block;
     margin: auto;
     margin-top: 1.5rem;
+    margin-bottom: 12px;
     padding: 0.7rem 1.3rem;
     cursor: pointer;
     border-radius: 8px;
