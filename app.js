@@ -21,7 +21,7 @@ function showData(){
 
 function compareValues(sum,luckyNumber){
     if(sum%luckyNumber===0){
-        outputMsg.innerText="🙂Yay,You are lucky";
+        outputMsg.innerText="🙂Yay , You are lucky";
     }else{
         outputMsg.innerText="☹️Sorry, You are not lucky";
     }
