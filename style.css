@@ -4,14 +4,8 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background-image: url(/birthday.jpg);
-    background-size: cover;
-    background-position: center;
-    color: white;
-}
+
 .container{
-    /* background-color: pink; */
     display: flex;
     flex-direction: column;
     width: 50%;

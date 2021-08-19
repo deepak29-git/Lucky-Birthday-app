@@ -2,6 +2,7 @@ const luckyNo=document.querySelector("#lucky-no");
 const checkBtn=document.querySelector("#check-btn");
 const birthDay=document.querySelector("#birthday");
 const outputMsg=document.querySelector('#output-msg')
+const luckyImage=document.querySelector("#image")
 
 checkBtn.addEventListener('click', showData);
 
@@ -11,10 +12,10 @@ function showData(){
     const birthDate=birthDay.value;
     const luckyNumber=luckyNo.value        
         const sum=calculateSum(birthDate);
-        if(sum&&birthDate){
-            compareValues(sum,luckyNumber)
-        }else{
+        if(sum=="" || birthDate==""){
             outputMsg.innerText="Please fill both the input fields"
+        }else{
+            compareValues(sum,luckyNumber)
         }
     
 }
